@@ -1,23 +1,3 @@
-<p align="center">
-    <a href="https://github.com/yii2tech" target="_blank">
-        <img src="https://avatars2.githubusercontent.com/u/12951949" height="100px">
-    </a>
-    <h1 align="center">ActiveRecord Many-to-Many Saving Extension for Yii2</h1>
-    <br>
-</p>
-
-This extension provides support for ActiveRecord many-to-many relation saving.
-For example: single "item" may belong to several "groups", each group may be linked with several items.
-Unlike regular [[\yii\db\BaseActiveRecord::link()]] usage, this extension automatically checks references existence,
-removes excluded references and provide support for web form composition.
-
-For license information check the [LICENSE](LICENSE.md)-file.
-
-[![Latest Stable Version](https://poser.pugx.org/yii2tech/ar-linkmany/v/stable.png)](https://packagist.org/packages/yii2tech/ar-linkmany)
-[![Total Downloads](https://poser.pugx.org/yii2tech/ar-linkmany/downloads.png)](https://packagist.org/packages/yii2tech/ar-linkmany)
-[![Build Status](https://travis-ci.org/yii2tech/ar-linkmany.svg?branch=master)](https://travis-ci.org/yii2tech/ar-linkmany)
-
-
 Installation
 ------------
 
@@ -26,13 +6,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2tech/ar-linkmany
+composer require dfware/ar-linkmany
 ```
 
 or add
 
 ```json
-"yii2tech/ar-linkmany": "*"
+"dfware/ar-linkmany": "*"
 ```
 
 to the require section of your composer.json.
